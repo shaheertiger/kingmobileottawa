@@ -1,6 +1,6 @@
-# King Mobile Ottawa
+# King Mobile + Laptop Experts
 
-One-page landing site for King Mobile Ottawa — mobile phone repair and accessories at 308 Rideau St a, Ottawa, ON K1N 5Y4.
+One-page landing site for King Mobile + Laptop Experts — phone and laptop repair and accessories at 308 Rideau St a, Ottawa, ON K1N 5Y4.
 
 - Single call-to-action: phone **(613) 206-6060** (header button, hero, mid-page, final CTA, and a sticky call bar on mobile).
 - No build step. Everything lives in `index.html` (inline CSS, one Google Fonts link, one Google Maps embed).
