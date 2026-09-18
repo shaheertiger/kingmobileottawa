@@ -12,9 +12,19 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-## Deploying
+## Deploying (Vercel)
 
-Any static host works (GitHub Pages, Netlify, Vercel, Cloudflare Pages) — publish the repo root.
+The repo root is the deployable site — no framework, no build command.
+
+1. In Vercel: **Add New… → Project** → import this repo.
+2. Framework Preset: **Other**. Leave Build Command empty and Output Directory as the root.
+3. Deploy.
+
+`vercel.json` sets `cleanUrls`, security headers, and no-cache on `index.html`
+so edits go live immediately on redeploy.
+
+After attaching the real domain, update the hardcoded `https://kingmobileottawa.ca/`
+URLs in `index.html` (canonical + JSON-LD), `robots.txt`, and `sitemap.xml`.
 
 ## Editing
 
